@@ -225,13 +225,15 @@ const products = [
 
   { id:'ICE01', name:'น้ำแข็งถุงเล็ก', price:5, category:'น้ำแข็ง', stock:10, image:'https://i.postimg.cc/BnhNFjJQ/Screenshot-2026-04-30-153237.png' },
   { id:'ICE02', name:'น้ำแข็งถุงใหญ่', price:10, category:'น้ำแข็ง', stock:10, image:'https://i.postimg.cc/BnhNFjJQ/Screenshot-2026-04-30-153237.png' }
+
+  { id:'A001', name:'ทิชชู่แขวนผนัง แบบดึง หนา 4 ชั้น 1280 แผ่น', price:30, category:'ของใช้', stock:10, image:'https://i.postimg.cc/hvBXh41x/S-102850565.jpg' }
 ];
 
 let activeCategory = 'ทั้งหมด';
 const cart = {};
 
 function categories(){
-  return ['ทั้งหมด','เครื่องดื่ม','ขนม','มาม่า/อาหารแห้ง','ไข่ไก่','น้ำแข็ง'];
+  return ['ทั้งหมด','เครื่องดื่ม','ขนม','มาม่า/อาหารแห้ง','ไข่ไก่','น้ำแข็ง','ของใช้'];
 }
 
 function renderTabs(){
