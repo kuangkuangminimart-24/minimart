@@ -204,6 +204,14 @@ const products = [
   { id:'W038', name:'เป๊ปซี่ น้ำอัดลม 1.5 ล.', price:35, category:'เครื่องดื่ม', stock:99, image:'https://i.postimg.cc/DZQTmhsh/Screenshot-2026-05-03-083643.png' },
   { id:'W039', name:'เอส โคล่า เครื่องดื่มอัดลม 1 ล.', price:30, category:'เครื่องดื่ม', stock:99, image:'https://i.postimg.cc/DZ1XZSBC/Screenshot-2026-05-03-085252.png' },
 
+  { id:'L001', name:'เบียร์สิงห์ กระป๋องสั้น', price:45, category:'เครื่องดื่มแอลกอฮอล์', stock:99, image:'https://i.postimg.cc/sgLxSZyN/Singha-Beer-Logo.png' },
+  { id:'L002', name:'เบียร์สิงห์ กระป๋องยาว', price:60, category:'เครื่องดื่มแอลกอฮอล์', stock:99, image:'https://i.postimg.cc/sgLxSZyN/Singha-Beer-Logo.png' },
+  { id:'L003', name:'เบียร์สิงห์ ขวด', price:65, category:'เครื่องดื่มแอลกอฮอล์', stock:99, image:'https://i.postimg.cc/sgLxSZyN/Singha-Beer-Logo.png' },
+  { id:'L004', name:'เบียร์ช้าง กระป๋องยาว', price:55, category:'เครื่องดื่มแอลกอฮอล์', stock:99, image:'https://i.postimg.cc/RZYhfn9R/5b4cf5192ddb7695e9e08df56769ff04.jpg' },
+  { id:'L005', name:'เบียร์ช้าง ขวด', price:60, category:'เครื่องดื่มแอลกอฮอล์', stock:99, image:'https://i.postimg.cc/RZYhfn9R/5b4cf5192ddb7695e9e08df56769ff04.jpg' },
+  { id:'L006', name:'เบียร์ลีโอ กระป๋องยาว', price:55, category:'เครื่องดื่มแอลกอฮอล์', stock:99, image:'https://i.postimg.cc/fRPyX0Zf/c5ee2e3cfe476838c3a40b0d68aada53.jpg' },
+  { id:'L007', name:'เบียร์ลีโอ ขวด', price:60, category:'เครื่องดื่มแอลกอฮอล์', stock:99, image:'https://i.postimg.cc/fRPyX0Zf/c5ee2e3cfe476838c3a40b0d68aada53.jpg' },
+
   { id:'F001', name:'มาม่า รสต้มยำกุ้งน้ำข้น', price:7, category:'มาม่า/อาหารแห้ง', stock:99, image:'https://i.postimg.cc/2jnX9dQ9/20230411032520-90826C7B-0C9E-4DD6-B9F0-F102D765A788.jpg' },
   { id:'F002', name:'มาม่า รสต้มยำกุ้ง', price:7, category:'มาม่า/อาหารแห้ง', stock:99, image:'https://i.postimg.cc/SQct1L6f/202411123078177.jpg' },
   { id:'F003', name:'มาม่า รสหมูสับ', price:7, category:'มาม่า/อาหารแห้ง', stock:99, image:'https://i.postimg.cc/mZ76p3Yd/20190813095316-90FDDFE6-579C-43F5-BFC8-CF5554562F9D.png' },
@@ -256,7 +264,7 @@ let activeCategory = 'ทั้งหมด';
 const cart = {};
 
 function categories(){
-  return ['ทั้งหมด','เครื่องดื่ม','ขนม','มาม่า/อาหารแห้ง','ไข่ไก่','น้ำแข็ง','ของใช้','ของสด'];
+  return ['ทั้งหมด','เครื่องดื่ม','แอลกอฮอล์','มาม่า/อาหารแห้ง','ไข่ไก่','น้ำแข็ง','ของใช้','ของสด'];
 }
 
 function renderTabs(){
